@@ -49,105 +49,105 @@
             "id": 1,
             "name": "珍珠馬精緻口手壺",
             "price": 1200,
-            "image": "../images/Pearl_Horseswan-neck_kettle_1200ml_4.jpg",
+            "image": "/images/Pearl_Horseswan-neck_kettle_1200ml_4.jpg",
             "tag":"hot"
         },
         {
             "id": 2,
             "name": "經典巴西 225克 / 半磅 / 包",
             "price": 600,
-            "image": "../images/Brazil_Coffee_beans.jpg",
+            "image": "/images/Brazil_Coffee_beans.jpg",
             "tag":"hot"
         },
         {
             "id": 3,
             "name": "8C不老咖啡 × 阿里山貴妃茶",
             "price": 480,
-            "image": "../images/ManorKellyHangingEarGiftBox.jpg",
+            "image": "/images/ManorKellyHangingEarGiftBox.jpg",
             "tag":"hot"
         },
         {
             "id": 4,
             "name": "國王咖啡杯",
             "price": 399,
-            "image": "../images/Kings_Cup_1.jpg",
+            "image": "/images/Kings_Cup_1.jpg",
             "tag":"hot"
         },
         {
             "id": 5,
             "name": "【禮盒/伴手禮】咖啡森林濾泡禮盒│二十個莊園綜合(10gx20包/盒-共20包)附提袋及卡片【JC咖啡】含藝妓/阿里山咖啡-去氧設備包裝",
             "price": 920,
-            "image": "../images/coffee_gift_box_1.avif",
+            "image": "/images/coffee_gift_box_1.avif",
             "tag":"coffee_gift_box"
         },
         {
             "id": 6,
             "name": "【禮盒/伴手禮】濾泡咖啡禮盒│二十個莊園綜合(10gx20包/盒-共20包)盒裝附提袋【JC咖啡】含藝妓/台灣阿里山咖啡-去氧設備包裝",
             "price": 800,
-            "image": "../images/coffee_gift_box_2.avif",
+            "image": "/images/coffee_gift_box_2.avif",
             "tag":"coffee_gift_box"
         },
         {
             "id": 7,
             "name": "【新年禮盒】《春之盛》新春聯名禮盒 | 酒漬咖啡-春和款（小）",
             "price": 720,
-            "image": "../images/coffee_gift_box_3.jpg",
+            "image": "/images/coffee_gift_box_3.jpg",
             "tag":"coffee_gift_box"
         },
         {
             "id": 8,
             "name": "《尋勝禮讚》咖啡水果乾聯名禮盒 | 經典果味（大）",
             "price": 890,
-            "image": "../images/coffee_gift_box_4.jpg",
+            "image": "/images/coffee_gift_box_4.jpg",
             "tag":"coffee_gift_box"
         },
         {
             "id": 9,
             "name": "Hario V60玻璃濾杯急速冰咖啡壺",
             "price": 1890,
-            "image": "../images/equip_1.jpg",
+            "image": "/images/equip_1.jpg",
             "tag":"equipment"
         },
         {
             "id": 10,
             "name": "台灣製金屬手沖咖啡架(黑)",
             "price": 290,
-            "image": "../images/equip_2.webp",
+            "image": "/images/equip_2.webp",
             "tag":"equipment"
         },
         {
             "id": 11,
             "name": "加大款-玻璃螺旋手沖咖啡濾杯",
             "price": 290,
-            "image": "../images/equip_3.webp",
+            "image": "/images/equip_3.webp",
             "tag":"equipment"
         },
         {
             "id": 12,
             "name": "ELEOS龍捲風奶泡機",
             "price": 199,
-            "image": "../images/equip_4.webp",
+            "image": "/images/equip_4.webp",
             "tag":"equipment"
         },
         {
             "id": 13,
             "name": "人氣推薦：蜜糖肉桂磚吐司（Honey Cinnamon Brick Toast）",
             "price": 200,
-            "image": "../images/honey-brick-toast.webp",
+            "image": "/images/honey-brick-toast.webp",
             "tag":"featured"
         },
         {
             "id": 14,
             "name": "人氣推薦：冬日暖心拿鐵（Winter Bliss Latte）",
             "price": 150,
-            "image": "../images/winter-bliss-latte.avif",
+            "image": "/images/winter-bliss-latte.avif",
             "tag":"featured"
         },
         {
             "id": 15,
             "name": "人氣推薦：森林莓果芝士蛋糕（Berry Cheesecake Delight）",
             "price": 180,
-            "image": "../images/berry-cheesecake.avif",
+            "image": "/images/berry-cheesecake.avif",
             "tag":"featured"
         }
     ]
