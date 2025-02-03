@@ -81,7 +81,7 @@ const Header = () => {
                 <nav>
                     <div className="left">
                         <IoMdMenu className="hamburger" onClick={openMenu}/>
-                        <Link to="/"><img id="logo" src={logo} alt="" /></Link>
+                        <Link to="/coffee"><img id="logo" src={logo} alt="" /></Link>
                         {
                             (isModalOpen) && (<div className='modal-backdrop' onClick={closeMenu}></div>)
                         }        
