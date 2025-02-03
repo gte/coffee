@@ -55,6 +55,7 @@ const App = () => {
                 <Route path="/modal-tutorial" element={<ModalTutorial />} />
                 <Route path="/search-tutorial" element={<SearchTutorial />} />
                 <Route path="/contact" element={<ContactForm />} />
+                <Route path="*" element={<Home />} />
             </Routes>
             <Footer />
         </CartProvider>
