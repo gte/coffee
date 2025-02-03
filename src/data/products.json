@@ -5,7 +5,7 @@
             "id": 1, 
             "name": "人氣推薦 3：蜜糖肉桂磚吐司（Honey Cinnamon Brick Toast）", 
             "price": 200, 
-            "image": "../images/honey-brick-toast.webp",
+            "image": "/images/honey-brick-toast.webp",
             "intro":"酥脆的外皮搭配鬆軟內心，淋上濃郁蜂蜜與一抹肉桂粉，配上香草冰淇淋與新鮮莓果點綴，每一口都充滿幸福感，是聚會分享的最佳甜品！",
             "promotion": "促銷： 兩份蜜糖磚吐司特價 NT$360，立即享受甜蜜時光！"
         },
@@ -13,7 +13,7 @@
             "id": 2, 
             "name": "人氣推薦 1：冬日暖心拿鐵（Winter Bliss Latte）", 
             "price": 150, 
-            "image": "../images/winter-bliss-latte.avif",
+            "image": "/images/winter-bliss-latte.avif",
             "intro": "介紹：一款溫暖冬日的特調拿鐵，選用濃郁的義式濃縮，融合香濃的奶泡與一抹肉桂味，搭配焦糖糖漿點綴，讓每一口都充滿暖意。",
             "promotion": "促銷： 現在購買，加購手工餅乾僅需 NT$30！"
         },
@@ -21,7 +21,7 @@
             "id": 3, 
             "name": "人氣推薦 2：森林莓果芝士蛋糕（Berry Cheesecake Delight）", 
             "price": 180, 
-            "image": "../images/berry-cheesecake.avif",
+            "image": "/images/berry-cheesecake.avif",
             "intro":"介紹：嚴選新鮮莓果製作，搭配細緻奶油芝士，酸甜平衡，每一口都能感受到森林的清新氣息，是下午茶的完美搭檔！",
             "promotion": "促銷： 任意飲品搭配此款蛋糕，享 9 折優惠！"
         },
@@ -29,7 +29,7 @@
             "id": 4, 
             "name": "人氣推薦 3：蜜糖肉桂磚吐司（Honey Cinnamon Brick Toast）", 
             "price": 200, 
-            "image": "../images/honey-brick-toast.webp",
+            "image": "/images/honey-brick-toast.webp",
             "intro":"酥脆的外皮搭配鬆軟內心，淋上濃郁蜂蜜與一抹肉桂粉，配上香草冰淇淋與新鮮莓果點綴，每一口都充滿幸福感，是聚會分享的最佳甜品！",
             "promotion": "促銷： 兩份蜜糖磚吐司特價 NT$360，立即享受甜蜜時光！"
         },
@@ -37,7 +37,7 @@
             "id": 5, 
             "name": "人氣推薦 1：冬日暖心拿鐵（Winter Bliss Latte）", 
             "price": 150, 
-            "image": "../images/winter-bliss-latte.avif",
+            "image": "/images/winter-bliss-latte.avif",
             "intro": "介紹：一款溫暖冬日的特調拿鐵，選用濃郁的義式濃縮，融合香濃的奶泡與一抹肉桂味，搭配焦糖糖漿點綴，讓每一口都充滿暖意。",
             "promotion": "促銷： 現在購買，加購手工餅乾僅需 NT$30！"
         }
