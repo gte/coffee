@@ -54,7 +54,7 @@ const Cart = () => {
             <div className="empty-cart">
                 <img src={emptyCart} alt="empty cart" />
                 <div className="empty-cart-text">您的購物車是空的</div>
-                <Link to="/products" className="go-shopping">再去逛逛</Link>
+                <Link to="/coffee/products" className="go-shopping">再去逛逛</Link>
             </div>
         ) 
     }
