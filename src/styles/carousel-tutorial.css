@@ -1,0 +1,98 @@
+.carousel-tutorial {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+  .carousel-tutorial h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-tutorial p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .carousel-tutorial pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .carousel-tutorial code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 1.1rem;
+    color: #828080;
+  }
+  
+  .carousel-tutorial .step {
+    margin-bottom: 30px;
+  }
+  
+  .carousel-tutorial .step h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-tutorial .step h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-tutorial .step ul {
+    margin-left: 14px;
+  }
+  
+  .carousel-tutorial .step ul li {
+    font-size: 14px;
+    color: #555;
+    list-style-type: disc;
+  }
+  
+  .carousel-tutorial .step pre {
+    background-color: #eee;
+  }
+  
+  .carousel-tutorial .step .tip {
+    background-color: #f0f8ff;
+    border-left: 5px solid #00bfff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-tutorial .step .tip p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .carousel-tutorial .step .note {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffecb5;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-tutorial .step .note p {
+    margin: 0;
+    color: #856404;
+  }
+  
+  .carousel-tutorial .step .highlight {
+    background-color: #d9edf7;
+    border-left: 5px solid #5bc0de;
+    padding: 10px;
+  }
+  
+  .carousel-tutorial .step .highlight p {
+    margin: 0;
+    color: #31708f;
+  }
+  

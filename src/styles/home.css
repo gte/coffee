@@ -1,0 +1,52 @@
+
+
+.home .image-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.home .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.home .go-button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3); /* 初始黑色背景 */
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: 70%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.home .go-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%; /* 偽元素寬度初始為 0 */
+    height: 100%;
+    background-color: rgba(255, 138, 49, 0.7); /* 橘色背景 */
+    transition: width 0.3s ease-out; /* 寬度平滑過渡 */
+    z-index: 0;
+}
+
+.home .go-button:hover::before {
+    width: 100%; /* 滑鼠移上去時填滿按鈕 */
+}
+
+.home .go-button span {
+    position: relative;
+    z-index: 1; /* 確保文字在背景之上 */
+}

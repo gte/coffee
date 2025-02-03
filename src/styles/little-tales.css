@@ -1,0 +1,100 @@
+/* 全局設置 */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 主要內容區塊 */
+.little-tales {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 標題設計 */
+.little-tales .title {
+    font-size: 20px;
+    /* text-align: center; */
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.little-tales .section-title {
+    font-size: 18px;
+    margin: 30px 0;
+    color: #444;
+    border-left: 4px solid #007BFF;
+    padding-left: 10px;
+}
+
+.little-tales h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* 內文段落 */
+.little-tales p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* 清單樣式 */
+.little-tales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.little-tales ul li {
+    background: #e9f5ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.little-tales ul li::before {
+    content: '✔';
+    color: #007BFF;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .little-tales {
+        width: 90%;
+        padding: 14px;
+    }
+
+    .little-tales .title {
+        font-size: 20px;
+    }
+
+    .little-tales .section-title {
+        font-size: 18px;
+    }
+
+    .little-tales h3 {
+        font-size: 16px;
+    }
+
+    .little-tales p {
+        font-size: 16px;
+    }
+
+    .little-tales ul li {
+        font-size: 14px;
+    }
+}

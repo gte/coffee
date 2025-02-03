@@ -1,0 +1,232 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    font-size: 12px;
+    z-index: 2000;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    position: relative;
+    z-index: 10;
+}
+header nav .left {
+    width: 133px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .icon {
+    width: 120px;
+    margin-right: 10px;
+    /* margin-top: 5px; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+header img {
+    image-rendering: crisp-edges;
+}
+header nav #cart {
+    padding-bottom: 2px;
+}
+header nav .cart-count {
+    position: absolute;
+    top: -8px;
+    left: 65px;
+    width: 18px;
+    height: 18px;
+    border-radius: 40%;
+    background-color: #ff0404;
+    color:#fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+header #logo {
+    width: 100px;
+    height: 30px;
+}
+header .hamburger, header #search, header #cart, header #designer {
+    font-size: 24px;
+}
+header .hamburger, header #logo, header #designer, header #search {
+    cursor: pointer;
+}
+header .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh);
+    background-color: transparent;
+    z-index: 10;
+
+}
+header .menu {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 70%;
+    height: calc(100vh);
+    padding: 20px 0 40px;
+    overflow: auto;
+    flex-direction: column;
+    opacity: 1;
+    transition: transform 0.3s ease-out, opacity 0.5s ease-out;
+    z-index: 1000;
+}
+header .menu .close {
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end; /* 將內容推到右邊 */
+    align-items: center; /* 垂直置中 (可選) */
+    width: 100%;
+    padding-right: 10px;
+}
+header .menu.open {
+    transform: translateX(0); /* 當有 'open' 類時，顯示菜單 */
+}
+header .menu.hidden {
+    transform: translateX(-100%); /* 隱藏菜單 */
+}
+header .search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    /* display: flex; */
+    width: 100%;
+    height: calc(100vh);
+    z-index: 2000;
+    padding: 20px;
+    opacity: 1;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, opactity 0.2s ease-in-out;
+}
+header .search .close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 10px 0;
+}
+header .search.open {
+    transform: translateX(0);
+}
+header .search.hidden {
+    transform: translateX(-100%);
+}
+header .search .search-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+header .search #search-icon {
+    flex: 0 0 30px;
+    padding-left: 0px;
+}
+header .search form {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+header .search form button {
+    width: 100px;
+    height: 40px;
+    background-color: #ff0404;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+header .search form .search-input {
+    width: 150px;
+    border: none;
+    flex: 0 0 200px;
+    font-size: 16px;
+    outline: none;
+}
+header .search form input:focus::placeholder {
+    color: transparent;
+}
+header .search .search-keywords {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+header .search .keywords-list {
+    display: grid;
+    /* auto-fit: 根據容器寬度，自動調整格子的數量，盡量填滿空間
+    100px: 定義每個格子的最小寬度。
+    auto: 根據內容調整格子的最大寬度，但不會超出容器可用空間。 */
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 5px;
+    padding: 5px;
+}
+
+header .search .keywords-list .keyword-item {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+
+}
+
+header .menu h3 {
+    margin-top: 20px;
+    margin-left: 0;
+    background-color: #d9d9d9;
+    padding: 10px
+}
+
+header .menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .menu li {
+    list-style: none;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header .grouped-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .dropdown-toggle {
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+header .dropdown-menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+header .dropdown-menu.open {
+    height: 120px;
+}

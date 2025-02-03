@@ -1,0 +1,98 @@
+.cart-tutorial {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+  .cart-tutorial h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cart-tutorial p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .cart-tutorial pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .cart-tutorial code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 1.1rem;
+    color: #828080;
+  }
+  
+  .cart-tutorial .step {
+    margin-bottom: 30px;
+  }
+  
+  .cart-tutorial .step h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cart-tutorial .step h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cart-tutorial .step ul {
+    margin-left: 14px;
+  }
+  
+  .cart-tutorial .step ul li {
+    font-size: 14px;
+    color: #555;
+    list-style-type: disc;
+  }
+  
+  .cart-tutorial .step pre {
+    background-color: #eee;
+  }
+  
+  .cart-tutorial .step .tip {
+    background-color: #f0f8ff;
+    border-left: 5px solid #00bfff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-tutorial .step .tip p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .cart-tutorial .step .note {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffecb5;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-tutorial .step .note p {
+    margin: 0;
+    color: #856404;
+  }
+  
+  .cart-tutorial .step .highlight {
+    background-color: #d9edf7;
+    border-left: 5px solid #5bc0de;
+    padding: 10px;
+  }
+  
+  .cart-tutorial .step .highlight p {
+    margin: 0;
+    color: #31708f;
+  }
+  

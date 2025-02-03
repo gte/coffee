@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 防止整個頁面水平滾動 */
+}
+
+.swipeable-slide>h3 { 
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #000;
+    /* margin-top: 10px; */
+    font-size: 16px;
+}
+
+.swipeable-slide-track {
+    /* margin-top: 10px; */
+    width: 100%; /* 滿寬 */
+    height: 200px; /* 固定高度 */
+    overflow-x: auto; /* 啟用水平滾動 */
+    display: flex; /* 橫向排列 */
+    gap: 10px; /* 圖片間距 */
+    scroll-behavior: smooth; /* 平滑滾動 */
+    -webkit-overflow-scrolling: touch; /* 提升觸控體驗 */
+    background-color: #fff; /* 背景顏色 */
+}
+
+.swipeable-slide::-webkit-scrollbar {
+    display: none; /* 隱藏滾動條  */
+} 
+
+.swipeable-img {
+    flex-shrink: 0; /* 防止圖片縮小 */
+    width: 300px; /* 每張圖片固定寬度 */
+    height: 100%; /* 與容器等高 */
+    border-radius: 15px; /* 圓角效果 */
+    object-fit: cover; /* 確保圖片等比例裁剪 */
+}

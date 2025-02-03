@@ -1,0 +1,179 @@
+.designer {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.designer h1, .designer h2, .designer h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.designer .highlight {
+    background: linear-gradient(to bottom, transparent 70%, rgba(247, 155, 124, 0.857) 80%);
+    display: inline;
+    line-height: 1.5;
+}
+
+/* .designer .highlight::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%; 
+    background-color: rgba(255, 255, 0, 0.5); 
+    z-index: -1; 
+} */
+
+.designer .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); /* 圓形陰影 */
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+/* .designer .line-container {
+    width: 50px;
+    height: 50px;
+    background-color: #666;
+} */
+
+.designer .line {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1000;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); /* 圓形陰影 */
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.designer h1 {
+    font-size: 20px;
+}
+
+.designer h2 {
+    font-size: 18px;
+}
+
+.designer h3 {
+    font-size: 16px;
+}
+
+.designer .image-container {
+    width: 100%;
+    /* height: 200px; */
+    position: relative;
+}
+
+.designer .image-container img {
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+.designer .image-container .so-wedding {
+    height: 180px;
+}
+
+.designer .image-container .seed {
+    height: 200px;
+}
+
+.designer .image-container .tea-serving {
+    height: 420px;
+}
+
+.designer .image-container .yehliu1 {
+    height: 230px;
+}
+
+.designer .image-container .yehliu2 {
+    height: 250px;
+}
+
+.designer .image-container .so-wedding2 {
+    height: 450px;
+}
+
+.designer .image-container .xdesign {
+    height: 220px;
+}
+
+.designer .image-container .book {
+    height: 330px;
+}
+
+.designer .image-container .takoyaki {
+    height: 400px;
+}
+
+.designer .image-container .brain {
+    height: 370px;
+}
+
+.designer .image-container .belle {
+    height: 700px;
+}
+
+.designer .image-container .epower {
+    height: 580px;
+}
+
+.designer .image-container .mcse {
+    height: 200px;
+}
+
+.designer .image-container .about {
+    height: 1300px;
+}
+
+.designer .image-container .service {
+    height: 1000px;
+}
+
+.designer .image-container .home {
+    height: 1600px;
+}
+
+.designer .image-container .product-details {
+    height: 2300px;
+}
+
+.designer .image-container .shopping-cart {
+    height: 500px;
+}
+
+.designer .image-container .checkout {
+    height: 530px;
+}
+
+.designer .image-container .membership {
+    height: 690px;
+}
+
+.designer .image-container .contact {
+    height: 600px;
+}
+
+.designer .image-container .sign-in-or-sign-up {
+    height: 330px;
+}
+
+.designer .image-container .sign-in-with-securitycentre {
+    height: 330px;
+}
+
+.designer .image-container .register-account {
+    height: 400px;
+}
