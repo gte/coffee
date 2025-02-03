@@ -53,7 +53,7 @@ const Header = () => {
         }
         searchInputRef.current.value = "";
     
-        window.location.href = `/products?search=${encodeURIComponent(trimmedValue)}`;
+        window.location.href = `/coffee/products?search=${encodeURIComponent(trimmedValue)}`;
     }
 
     const selectKeyword = (keyword) => {

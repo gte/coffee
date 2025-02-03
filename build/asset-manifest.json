@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/coffee/static/css/main.03aaeb11.css",
-    "main.js": "/coffee/static/js/main.651cbdb8.js",
-    "static/media/About.png": "/coffee/static/media/About.510e5b9c43b2db31026a.png",
+    "main.js": "/coffee/static/js/main.8f942f3e.js",
     "static/media/ProductDetails.png": "/coffee/static/media/ProductDetails.7d78d19004b71306bfd0.png",
     "static/media/env2.avif": "/coffee/static/media/env2.d5ac7379503b591248a3.avif",
     "static/media/Home.png": "/coffee/static/media/Home.5a6799ddd56e1fe4e440.png",
@@ -11,6 +10,7 @@
     "static/media/env3.avif": "/coffee/static/media/env3.3a5fe27030898439dfbe.avif",
     "static/media/contact.png": "/coffee/static/media/contact.f7d4170639ac9169aa44.png",
     "static/media/brand-story.avif": "/coffee/static/media/brand-story.ce23d0b1a2d45c975787.avif",
+    "static/media/About.png": "/coffee/static/media/About.be44a703905be09e203f.png",
     "static/media/so-wedding2.png": "/coffee/static/media/so-wedding2.cb1119c7e3d612492b83.png",
     "static/media/belle.png": "/coffee/static/media/belle.a88b375a950dceeba659.png",
     "static/media/env1.avif": "/coffee/static/media/env1.7c775ce74c6c8e32d54f.avif",
@@ -48,10 +48,10 @@
     "static/media/logo.png": "/coffee/static/media/logo.8434e83c3ad351da4158.png",
     "index.html": "/coffee/index.html",
     "main.03aaeb11.css.map": "/coffee/static/css/main.03aaeb11.css.map",
-    "main.651cbdb8.js.map": "/coffee/static/js/main.651cbdb8.js.map"
+    "main.8f942f3e.js.map": "/coffee/static/js/main.8f942f3e.js.map"
   },
   "entrypoints": [
     "static/css/main.03aaeb11.css",
-    "static/js/main.651cbdb8.js"
+    "static/js/main.8f942f3e.js"
   ]
 }
