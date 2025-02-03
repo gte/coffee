@@ -34,7 +34,7 @@ const App = () => {
         <CartProvider>
             <Header />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/coffee" element={<Home />} />
                 <Route path="/about/values" element={<Values />} />
                 <Route path="/about/story" element={<Story />} />
                 <Route path="/about/faq" element={<FAQ />} />
