@@ -49,28 +49,28 @@
             "id": 1,
             "name": "珍珠馬精緻口手壺",
             "price": 1200,
-            "image": "/images/Pearl_Horseswan-neck_kettle_1200ml_4.jpg",
+            "image": "../images/Pearl_Horseswan-neck_kettle_1200ml_4.jpg",
             "tag":"hot"
         },
         {
             "id": 2,
             "name": "經典巴西 225克 / 半磅 / 包",
             "price": 600,
-            "image": "/images/Brazil_Coffee_beans.jpg",
+            "image": "../images/Brazil_Coffee_beans.jpg",
             "tag":"hot"
         },
         {
             "id": 3,
             "name": "8C不老咖啡 × 阿里山貴妃茶",
             "price": 480,
-            "image": "/images/ManorKellyHangingEarGiftBox.jpg",
+            "image": "../images/ManorKellyHangingEarGiftBox.jpg",
             "tag":"hot"
         },
         {
             "id": 4,
             "name": "國王咖啡杯",
             "price": 399,
-            "image": "/images/Kings_Cup_1.jpg",
+            "image": "../images/Kings_Cup_1.jpg",
             "tag":"hot"
         },
         {
