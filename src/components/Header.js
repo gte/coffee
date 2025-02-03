@@ -91,7 +91,7 @@ const Header = () => {
                         </div>
                         <h3>關於我們</h3>
                         <ul className='nav-about'>
-                            <li><Link to='/' onClick={closeMenu}>首頁</Link></li>
+                            <li><Link to='/coffee' onClick={closeMenu}>首頁</Link></li>
                             <li>
                                 <div className='grouped-about' onClick={toggleDropdown}>
                                     <div>小巷光影</div>
@@ -102,33 +102,33 @@ const Header = () => {
                                     }   
                                 </div>
                                 <ul className={`dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
-                                    <li><Link to='/about/story' onClick={closeMenu}>品牌故事</Link></li>
-                                    <li><Link to='/about/values' onClick={closeMenu}>品牌理念</Link></li>
-                                    <li><Link to='/about/faq' onClick={closeMenu}>常見問題</Link></li>
+                                    <li><Link to='/coffee/about/story' onClick={closeMenu}>品牌故事</Link></li>
+                                    <li><Link to='/coffee/about/values' onClick={closeMenu}>品牌理念</Link></li>
+                                    <li><Link to='/coffee/about/faq' onClick={closeMenu}>常見問題</Link></li>
                                 </ul>
                             </li>
                         </ul>
                         <h3>商品分類</h3>
                         <ul className='nav-products'>
-                            <li><Link to='/products' onClick={closeMenu}>全部商品</Link></li>
-                            <li><Link to='/products/featured' onClick={closeMenu}>招牌精選</Link></li>
-                            <li><Link to='/products/hot' onClick={closeMenu}>人氣商品</Link></li>
-                            <li><Link to='/products/coffee_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
-                            <li><Link to='/products/single' onClick={closeMenu}>單品咖啡</Link></li>
-                            <li><Link to='/products/equipment' onClick={closeMenu}>咖啡器具</Link></li>
+                            <li><Link to='/coffee/products' onClick={closeMenu}>全部商品</Link></li>
+                            <li><Link to='/coffee/products/featured' onClick={closeMenu}>招牌精選</Link></li>
+                            <li><Link to='/coffee/products/hot' onClick={closeMenu}>人氣商品</Link></li>
+                            <li><Link to='/coffee/products/coffee_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
+                            <li><Link to='/coffee/products/single' onClick={closeMenu}>單品咖啡</Link></li>
+                            <li><Link to='/coffee/products/equipment' onClick={closeMenu}>咖啡器具</Link></li>
                         </ul>
                         <h3>關於這個作品</h3>
                         <ul className='nav-activities'>
-                            <li><Link to='/designer' onClick={closeMenu}>關於我（網頁設計師）</Link></li>
-                            <li><Link to='/contact' onClick={closeMenu}>聯絡作者</Link></li>
-                            <li><Link to='/portfolio' onClick={closeMenu}>關於這個作品</Link></li>
-                            <li><Link to='/hamburger-tutorial' onClick={closeMenu}>漢堡選單的展開與收合教學</Link></li>
-                            <li><Link to='/carousel-tutorial' onClick={closeMenu}>輪播圖教學</Link></li>
-                            <li><Link to='/product-display-tutorial' onClick={closeMenu}>商品顯示教學</Link></li>
-                            <li><Link to='/product-view-tutorial' onClick={closeMenu}>Grid View 和 List View 切換</Link></li>
-                            <li><Link to='/cart-tutorial' onClick={closeMenu}>購物車與context教學</Link></li>
-                            <li><Link to='/modal-tutorial' onClick={closeMenu}>Modal彈出視窗教學</Link></li>
-                            <li><Link to='/search-tutorial' onClick={closeMenu}>商品搜尋功能教學</Link></li>
+                            <li><Link to='/coffee/designer' onClick={closeMenu}>關於我（網頁設計師）</Link></li>
+                            <li><Link to='/coffee/contact' onClick={closeMenu}>聯絡作者</Link></li>
+                            <li><Link to='/coffee/portfolio' onClick={closeMenu}>關於這個作品</Link></li>
+                            <li><Link to='/coffee/hamburger-tutorial' onClick={closeMenu}>漢堡選單的展開與收合教學</Link></li>
+                            <li><Link to='/coffee/carousel-tutorial' onClick={closeMenu}>輪播圖教學</Link></li>
+                            <li><Link to='/coffee/product-display-tutorial' onClick={closeMenu}>商品顯示教學</Link></li>
+                            <li><Link to='/coffee/product-view-tutorial' onClick={closeMenu}>Grid View 和 List View 切換</Link></li>
+                            <li><Link to='/coffee/cart-tutorial' onClick={closeMenu}>購物車與context教學</Link></li>
+                            <li><Link to='/coffee/modal-tutorial' onClick={closeMenu}>Modal彈出視窗教學</Link></li>
+                            <li><Link to='/coffee/search-tutorial' onClick={closeMenu}>商品搜尋功能教學</Link></li>
                         </ul>
                         </div> 
                         <div className={`search ${isSearchOpen ? 'open' : 'hidden'}`}>
@@ -165,8 +165,8 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="icon">
-                        <Link to='/designer'><LuUserPen id="designer"/></Link>
-                        <Link to='/cart'><BsCart2 id="cart"/></Link>
+                        <Link to='/coffee/designer'><LuUserPen id="designer"/></Link>
+                        <Link to='/coffee/cart'><BsCart2 id="cart"/></Link>
                         {cartItems.length > 0 && <div className='cart-count'>{cartItems.length}</div>}
                         <IoIosSearch id="search" onClick={openSearch}/>
                     </div>
