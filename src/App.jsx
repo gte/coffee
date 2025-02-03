@@ -35,26 +35,26 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/coffee" element={<Home />} />
-                <Route path="/about/values" element={<Values />} />
-                <Route path="/about/story" element={<Story />} />
-                <Route path="/about/faq" element={<FAQ />} />
-                <Route path="/products" element={<Product />} />
-                <Route path="/products/hot" element={<Product />} />
-                <Route path="/products/coffee_gift_box" element={<Product />} />
-                <Route path="/products/single" element={<Product />} />
-                <Route path="/products/equipment" element={<Product />} />
-                <Route path="/products/featured" element={<Product />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/designer" element={<Designer />} />
-                <Route path="/portfolio" element={<LittleTales />} />
-                <Route path="/hamburger" element={<HamburgerMenuTutorial />} />
-                <Route path="/carousel-tutorial" element={<CarouselTutorial />} />
-                <Route path="/product-display-tutorial" element={<ProductDisplayTutorial />} />
-                <Route path="/product-view-tutorial" element={<ProductViewTutorial />} />
-                <Route path="/cart-tutorial" element={<CartTutorial />} />
-                <Route path="/modal-tutorial" element={<ModalTutorial />} />
-                <Route path="/search-tutorial" element={<SearchTutorial />} />
-                <Route path="/contact" element={<ContactForm />} />
+                <Route path="/coffee/about/values" element={<Values />} />
+                <Route path="/coffee/about/story" element={<Story />} />
+                <Route path="/coffee/about/faq" element={<FAQ />} />
+                <Route path="/coffee/products" element={<Product />} />
+                <Route path="/coffee/products/hot" element={<Product />} />
+                <Route path="/coffee/products/coffee_gift_box" element={<Product />} />
+                <Route path="/coffee/products/single" element={<Product />} />
+                <Route path="/coffee/products/equipment" element={<Product />} />
+                <Route path="/coffee/products/featured" element={<Product />} />
+                <Route path="/coffee/cart" element={<Cart />} />
+                <Route path="/coffee/designer" element={<Designer />} />
+                <Route path="/coffee/portfolio" element={<LittleTales />} />
+                <Route path="/coffee/hamburger-turorial" element={<HamburgerMenuTutorial />} />
+                <Route path="/coffee/carousel-tutorial" element={<CarouselTutorial />} />
+                <Route path="/coffee/product-display-tutorial" element={<ProductDisplayTutorial />} />
+                <Route path="/coffee/product-view-tutorial" element={<ProductViewTutorial />} />
+                <Route path="/coffee/cart-tutorial" element={<CartTutorial />} />
+                <Route path="/coffee/modal-tutorial" element={<ModalTutorial />} />
+                <Route path="/coffee/search-tutorial" element={<SearchTutorial />} />
+                <Route path="/coffee/contact" element={<ContactForm />} />
                 <Route path="*" element={<Home />} />
             </Routes>
             <Footer />

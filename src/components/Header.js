@@ -122,7 +122,7 @@ const Header = () => {
                             <li><Link to='/designer' onClick={closeMenu}>關於我（網頁設計師）</Link></li>
                             <li><Link to='/contact' onClick={closeMenu}>聯絡作者</Link></li>
                             <li><Link to='/portfolio' onClick={closeMenu}>關於這個作品</Link></li>
-                            <li><Link to='/hamburger' onClick={closeMenu}>漢堡選單的展開與收合教學</Link></li>
+                            <li><Link to='/hamburger-tutorial' onClick={closeMenu}>漢堡選單的展開與收合教學</Link></li>
                             <li><Link to='/carousel-tutorial' onClick={closeMenu}>輪播圖教學</Link></li>
                             <li><Link to='/product-display-tutorial' onClick={closeMenu}>商品顯示教學</Link></li>
                             <li><Link to='/product-view-tutorial' onClick={closeMenu}>Grid View 和 List View 切換</Link></li>
