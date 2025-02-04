@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="0; url=/coffee/?redirect=">
+</head>
+<body>
+  <script>
+    var path = window.location.pathname.replace('/coffee', '');
+    window.location.replace('/coffee/?redirect=' + encodeURIComponent(path));
+  </script>
+</body>
+</html>
