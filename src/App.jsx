@@ -29,7 +29,7 @@ import SearchTutorial from "./pages/SearchTutorial";
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="/coffee">
         <div className="line-container"><a href="https://line.me/R/ti/p/@730vvcxs"><FaLine className="line" size={30} color="green"/></a></div>
         <CartProvider>
             <Header />
