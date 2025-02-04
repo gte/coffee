@@ -1,5 +1,7 @@
 // src/App.js
 import React from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Route, Routes} from 'react-router-dom'
 import Header from "./components/Header";
@@ -28,7 +30,18 @@ import SearchTutorial from "./pages/SearchTutorial";
 
 const App = () => {
 
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get("redirect");
+    if (redirect) {
+      navigate(redirect);
+    }
+  }, [navigate]);
+
   return (
+    
     <Router basename="/coffee">
         <div className="line-container"><a href="https://line.me/R/ti/p/@730vvcxs"><FaLine className="line" size={30} color="green"/></a></div>
         <CartProvider>
