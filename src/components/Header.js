@@ -53,8 +53,8 @@ const Header = () => {
         }
         searchInputRef.current.value = "";
     
-        // window.location.href = `/coffee/products?search=${encodeURIComponent(trimmedValue)}`;
-        window.location.href = "/coffee/products";
+        window.location.href = `/coffee/products?search=${encodeURIComponent(trimmedValue)}`;
+        // window.location.href = "/coffee/products";
     }
 
     const selectKeyword = (keyword) => {
@@ -82,7 +82,7 @@ const Header = () => {
                 <nav>
                     <div className="left">
                         <IoMdMenu className="hamburger" onClick={openMenu}/>
-                        <Link to="/coffee"><img id="logo" src={logo} alt="" /></Link>
+                        <Link to="/coffee"><img id="logo" src={logo} alt="網頁設計, React 教學" /></Link>
                         {
                             (isModalOpen) && (<div className='modal-backdrop' onClick={closeMenu}></div>)
                         }        
@@ -114,9 +114,9 @@ const Header = () => {
                             <li><Link to='/coffee/products' onClick={closeMenu}>全部商品</Link></li>
                             <li><Link to='/coffee/products/featured' onClick={closeMenu}>招牌精選</Link></li>
                             <li><Link to='/coffee/products/hot' onClick={closeMenu}>人氣商品</Link></li>
-                            <li><Link to='/coffee/products/coffee_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
-                            <li><Link to='/coffee/products/single' onClick={closeMenu}>單品咖啡</Link></li>
-                            <li><Link to='/coffee/products/equipment' onClick={closeMenu}>咖啡器具</Link></li>
+                            <li><Link to='/coffee/products_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
+                            <li><Link to='/coffee/coffee/products/single' onClick={closeMenu}>單品咖啡</Link></li>
+                            <li><Link to='/coffee/coffee/products/equipment' onClick={closeMenu}>咖啡器具</Link></li>
                         </ul>
                         <h3>關於這個作品</h3>
                         <ul className='nav-activities'>
