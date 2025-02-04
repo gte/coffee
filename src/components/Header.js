@@ -53,7 +53,7 @@ const Header = () => {
         }
         searchInputRef.current.value = "";
     
-        window.location.href = `/coffee/products?search=${encodeURIComponent(trimmedValue)}`;
+        window.location.href = `coffee/products?search=${encodeURIComponent(trimmedValue)}`;
         // window.location.href = "/products";
     }
 
@@ -92,7 +92,7 @@ const Header = () => {
                         </div>
                         <h3>關於我們</h3>
                         <ul className='nav-about'>
-                            <li><Link to='/' onClick={closeMenu}>首頁</Link></li>
+                            <div onClick={closeMenu} style={{cursor:'pointer'}}><li><Link to='/'>首頁</Link></li></div>
                             <li>
                                 <div className='grouped-about' onClick={toggleDropdown}>
                                     <div>小巷光影</div>
