@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gte.github.io/coffee/sitemap.xml
