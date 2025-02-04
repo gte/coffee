@@ -82,7 +82,7 @@ const Header = () => {
                 <nav>
                     <div className="left">
                         <IoMdMenu className="hamburger" onClick={openMenu}/>
-                        <Link to="/coffee"><img id="logo" src={logo} alt="網頁設計, React 教學" /></Link>
+                        <Link to="/"><img id="logo" src={logo} alt="網頁設計, React 教學" /></Link>
                         {
                             (isModalOpen) && (<div className='modal-backdrop' onClick={closeMenu}></div>)
                         }        
@@ -92,7 +92,7 @@ const Header = () => {
                         </div>
                         <h3>關於我們</h3>
                         <ul className='nav-about'>
-                            <li><Link to='/coffee' onClick={closeMenu}>首頁</Link></li>
+                            <li><Link to='/' onClick={closeMenu}>首頁</Link></li>
                             <li>
                                 <div className='grouped-about' onClick={toggleDropdown}>
                                     <div>小巷光影</div>

@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Route, Routes} from 'react-router-dom'
 import Header from "./components/Header";
@@ -30,16 +30,16 @@ import SearchTutorial from "./pages/SearchTutorial";
 
 const App = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const redirect = params.get("redirect");
+  // useEffect(() => {
+  //   const params = new URLSearchParams(window.location.search);
+  //   const redirect = params.get("redirect");
 
-    if (redirect) {
-      navigate(redirect, { replace: true });
-    }
-  }, [navigate]);
+  //   if (redirect) {
+  //     navigate(redirect, { replace: true });
+  //   }
+  // }, [navigate]);
 
   return (
     
