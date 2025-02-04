@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://git.github.io/coffee/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/about/values</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/about/story</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/about/faq</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products/hot</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products/coffee_gift_box</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products/single</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products/equipment</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/products/featured</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/cart</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/designer</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/portfolio</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/hamburger-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/carousel-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/product-display-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/product-view-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/cart-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/modal-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/search-tutorial</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://git.github.io/coffee/contact</loc>
+        <lastmod>2025-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
