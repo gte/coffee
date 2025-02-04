@@ -114,7 +114,7 @@ const Header = () => {
                             <li><Link to='/products' onClick={closeMenu}>全部商品</Link></li>
                             <li><Link to='/products/featured' onClick={closeMenu}>招牌精選</Link></li>
                             <li><Link to='/products/hot' onClick={closeMenu}>人氣商品</Link></li>
-                            <li><Link to='/products_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
+                            <li><Link to='/products/coffee_gift_box' onClick={closeMenu}>咖啡禮盒</Link></li>
                             <li><Link to='/products/single' onClick={closeMenu}>單品咖啡</Link></li>
                             <li><Link to='/products/equipment' onClick={closeMenu}>咖啡器具</Link></li>
                         </ul>
