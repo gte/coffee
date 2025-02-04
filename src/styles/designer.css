@@ -26,17 +26,18 @@
     z-index: -1; 
 } */
 
-.designer .scroll-to-top {
+/* .designer .scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 10px;
     z-index: 1000;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); /* 圓形陰影 */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); 
     border-radius: 50%;
     cursor: pointer;
     width: 50px;
     height: 50px;
-}
+    background-color: #fff;
+} */
 
 /* .designer .line-container {
     width: 50px;

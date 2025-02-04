@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import { FaArrowAltCircleUp } from "react-icons/fa";
-// import { FaLine } from "react-icons/fa6";
 import "../styles/designer.css";
 import soWedding from "../images/so-wedding.png";
 import seed from "../images/seed.png";
@@ -29,32 +26,9 @@ import registerAccount from "../images/register-account.png";
 
 const Designer = () => {
 
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(()=>{
-        const toogleVisibility = () =>{
-            if(window.scrollY > 300){
-                setIsVisible(true);
-            }else{
-                setIsVisible(false);
-            }
-        }
-        window.addEventListener("scroll", toogleVisibility);
-        return () => window.removeEventListener("scroll", toogleVisibility)
-    },[])
-
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-    }
+    
     return (
         <div className="designer">
-            
-            {
-                (isVisible && <div><FaArrowAltCircleUp className="scroll-to-top" size={30} onClick={scrollToTop} /></div>)
-            }
             <h1><strong>關於我（網頁設計師）</strong></h1>
             <h2><strong>西元2000年 開始了網頁設計之路</strong></h2>
             <section>

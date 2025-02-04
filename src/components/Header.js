@@ -9,6 +9,7 @@ import { IoIosSearch } from "react-icons/io";
 import { IoMdMenu } from "react-icons/io";
 import { MdExpandMore } from "react-icons/md";
 import { MdExpandLess } from "react-icons/md";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 import '../styles/header.css'
 import logo from '../images/logo.png'
 
@@ -19,11 +20,31 @@ const Header = () => {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
     const [keywords, setKeywords] = useState(()=>{
         return JSON.parse(localStorage.getItem("keywords")) || [];
     })
     const searchInputRef = useRef(null);
+
+    useEffect(()=>{
+        const toogleVisibility = () =>{
+            if(window.scrollY > 300){
+                setIsVisible(true);
+            }else{
+                setIsVisible(false);
+            }
+        }
+        window.addEventListener("scroll", toogleVisibility);
+        return () => window.removeEventListener("scroll", toogleVisibility)
+    },[])
+    
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
 
     const toggleDropdown = () => {
         setDropdownOpen(!isDropdownOpen);
@@ -85,7 +106,10 @@ const Header = () => {
                         <Link to="/"><img id="logo" src={logo} alt="網頁設計, React 教學" /></Link>
                         {
                             (isModalOpen) && (<div className='modal-backdrop' onClick={closeMenu}></div>)
-                        }        
+                        }
+                        {
+                            (isVisible && <div><FaArrowAltCircleUp className="scroll-to-top" size={30} onClick={scrollToTop} /></div>)
+                        }
                         <div className={`menu ${isMenuOpen ? 'open' : 'hidden'}`}>
                         <div className="close" >
                             <IoIosClose id='close-icon' onClick={closeMenu}/>
