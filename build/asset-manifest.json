@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/coffee/static/css/main.58e40824.css",
-    "main.js": "/coffee/static/js/main.18748e4d.js",
+    "main.js": "/coffee/static/js/main.24f3b005.js",
     "static/media/ProductDetails.png": "/coffee/static/media/ProductDetails.7d78d19004b71306bfd0.png",
-    "static/media/env2.avif": "/coffee/static/media/env2.d5ac7379503b591248a3.avif",
     "static/media/faq.jpg": "/coffee/static/media/faq.b07996507c9435f132a1.jpg",
-    "static/media/env3.avif": "/coffee/static/media/env3.3a5fe27030898439dfbe.avif",
     "static/media/brand-story.avif": "/coffee/static/media/brand-story.ce23d0b1a2d45c975787.avif",
+    "static/media/env2.jpg": "/coffee/static/media/env2.4afd8b63575f44eaa999.jpg",
     "static/media/About.png": "/coffee/static/media/About.be44a703905be09e203f.png",
-    "static/media/env1.avif": "/coffee/static/media/env1.7c775ce74c6c8e32d54f.avif",
     "static/media/mcse.png": "/coffee/static/media/mcse.b96c17b9a45a99e55c5e.png",
-    "static/media/env4.avif": "/coffee/static/media/env4.1aa7ae7a92f45ddb23ca.avif",
     "static/media/Home.png": "/coffee/static/media/Home.0aa6f894bcadd7bb8ed5.png",
+    "static/media/env3.jpg": "/coffee/static/media/env3.b0a1f75b8d7ae01213cf.jpg",
     "static/media/takoyaki.png": "/coffee/static/media/takoyaki.a0618e54cb8c84c8cd41.png",
     "static/media/Service.png": "/coffee/static/media/Service.301851c5a16338d6fcc7.png",
     "static/media/recommand_1.jpg": "/coffee/static/media/recommand_1.3f7c60e9549fc86d20c1.jpg",
     "static/media/tea-serving.png": "/coffee/static/media/tea-serving.c06894a74a5a876957a6.png",
     "static/media/brain.png": "/coffee/static/media/brain.01fac0fe442a54574883.png",
+    "static/media/env1.jpg": "/coffee/static/media/env1.04c1e564c5521272e399.jpg",
     "static/media/image1.avif": "/coffee/static/media/image1.1c9c59e75c86a4c8074a.avif",
+    "static/media/env4.jpg": "/coffee/static/media/env4.0d55e49776067640b016.jpg",
     "static/media/yehliu-2.png": "/coffee/static/media/yehliu-2.39f33a062b8ed9813bc0.png",
     "static/media/Coffee-Bean-Extract.png": "/coffee/static/media/Coffee-Bean-Extract.eed138d8b4c807b947b2.png",
     "static/media/so-wedding.png": "/coffee/static/media/so-wedding.f185eab43c7c8495e069.png",
@@ -48,10 +48,10 @@
     "static/media/logo.png": "/coffee/static/media/logo.8434e83c3ad351da4158.png",
     "index.html": "/coffee/index.html",
     "main.58e40824.css.map": "/coffee/static/css/main.58e40824.css.map",
-    "main.18748e4d.js.map": "/coffee/static/js/main.18748e4d.js.map"
+    "main.24f3b005.js.map": "/coffee/static/js/main.24f3b005.js.map"
   },
   "entrypoints": [
     "static/css/main.58e40824.css",
-    "static/js/main.18748e4d.js"
+    "static/js/main.24f3b005.js"
   ]
 }

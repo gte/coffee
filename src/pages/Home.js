@@ -9,10 +9,10 @@ import story from '../images/our-story.avif'
 import image1 from "../images/image1.avif";
 import image2 from "../images/image2.avif";
 import image3 from "../images/image3.avif";
-import env1 from "../images/env1.avif";
-import env2 from "../images/env2.avif";
-import env3 from "../images/env3.avif";
-import env4 from "../images/env4.avif";
+import env1 from "../images/env1.jpg";
+import env2 from "../images/env2.jpg";
+import env3 from "../images/env3.jpg";
+import env4 from "../images/env4.jpg";
 import recommand1 from "../images/recommand_1.jpg";
 import recommand2 from "../images/recommand_2.webp";
 import recommand3 from "../images/recommand_3.webp";
