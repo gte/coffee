@@ -26,7 +26,6 @@ import registerAccount from "../images/register-account.png";
 
 const Designer = () => {
 
-    
     return (
         <div className="designer">
             <h1><strong>關於我（網頁設計師）</strong></h1>
